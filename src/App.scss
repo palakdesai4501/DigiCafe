@@ -1,71 +1,73 @@
-$purple : #483248;
-$dark_purple : #301934;
-$light_purple : #D8BFD8;
-$white : #ffffff;
+$purple: #483248;
+$dark_purple: #301934;
+$light_purple: #d8bfd8;
+$white: #ffffff;
 
-body{
-    margin: 0%;
-    padding: 0%;
-    background-color: $purple;
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: $purple;
 }
 
-.sidebar{
-    width: 20%;
-    height: 100vh;
-    background-color: $dark_purple;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    color: $light_purple;
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: $dark_purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  color: $light_purple;
 }
 
 .profile {
-    width: 19rem;
-    height: 5rem;
-    background-color: $purple;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    margin: auto{
-        top: 2rem;
-    };   
+  width: 19rem;
+  height: 5rem;
+  background-color: $purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin: auto {
+    top: 2rem;
+  }
 }
 
 .container {
-   margin-top: 4rem;
-   margin-left: 2rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto {
+    top: 4rem;
+    left: 2rem;
+  }
 }
 
-.category-btn{
-    font-weight: bold !important;
-    font-size: 20px;
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    cursor: pointer;
-    background: transparent;
-    outline: none;
-    border: none;
-    padding: 7px 15px;
-    margin: 10px 0px;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-    color: $light_purple;
-    width: 15vw;
+.category-btn {
+  font-weight: bold !important;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  color: $light_purple;
+  width: 15vw;
 
-    &:hover{
-        background-color: $purple !important;
-  color: $white!important;
-    }
+  &:hover {
+    background-color: $purple !important;
+    color: $white !important;
+  }
 }
 
-span{ 
-    margin-left: 20px;
+span {
+  margin-left: 20px;
 }
