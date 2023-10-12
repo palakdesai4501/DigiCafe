@@ -1,6 +1,7 @@
 $purple : #483248;
 $dark_purple : #301934;
 $light_purple : #D8BFD8;
+$white : #ffffff;
 
 body{
     margin: 0%;
@@ -36,4 +37,35 @@ body{
 .container {
    margin-top: 4rem;
    margin-left: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.category-btn{
+    font-weight: bold !important;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    color: $light_purple;
+    width: 15vw;
+
+    &:hover{
+        background-color: $purple !important;
+  color: $white!important;
+    }
+}
+
+span{ 
+    margin-left: 20px;
 }
