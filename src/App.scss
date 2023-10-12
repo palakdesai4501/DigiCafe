@@ -1,7 +1,20 @@
 $purple : #483248;
+$dark_purple : #301934;
+$light_purple : #D8BFD8;
 
 body{
     margin: 0%;
     padding: 0%;
     background-color: $purple;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    background-color: $dark_purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    color: $light_purple;
 }
