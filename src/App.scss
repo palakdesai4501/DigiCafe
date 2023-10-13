@@ -21,17 +21,35 @@ body {
 }
 
 .profile {
-  width: 19rem;
-  height: 5rem;
+  width: 280px;
+  height: 80px;
   background-color: $purple;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: 20px;
   margin: auto {
-    top: 2rem;
+    top: 40px;
   }
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  border: 2px solid $light_purple;
+  width: 55px;
+  height: 55px;
+  border-radius: 30%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.profile-name {
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 .container {
