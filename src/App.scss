@@ -90,18 +90,30 @@ body {
   }
 }
 
-.app-container{
-    display: flex;
+.app-container {
+  display: flex;
 }
 
-.title-container{
-    h1{
-        color: $light_purple;
-    }
-    margin: {
-        left: 30px;
-        top: 10px
-    };
-
+.title-container {
+  h1 {
+    color: $light_purple;
+  }
+  margin: {
+    left: 30px;
+    top: 20px;
+  }
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+ 
 }
 
+.search-bar {
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 30px;
+  margin-left: 130px;
+  border-radius: 10px;
+}
