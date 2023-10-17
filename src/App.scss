@@ -13,7 +13,7 @@ body {
   width: 20%;
   height: 100vh;
   background-color: $dark_purple;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 100;
@@ -52,7 +52,7 @@ body {
   margin: 0;
 }
 
-.container {
+.button-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,8 +84,20 @@ body {
     background-color: $purple !important;
     color: $white !important;
   }
+
+  span {
+    margin-left: 20px;
+  }
 }
 
-span {
-  margin-left: 20px;
+.app-container{
+    display: flex;
 }
+
+.title-container{
+    h1{
+        color: $light_purple;
+    }
+
+}
+

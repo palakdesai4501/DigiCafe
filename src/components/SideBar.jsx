@@ -6,7 +6,7 @@ const SideBar = () => {
   return (
     <div className="sidebar">
       <Profile />
-      <div className="container">
+      <div className="button-container">
         {items.map((item, index) => (
           <button key={index} className="category-btn">
             {item.icon}

@@ -1,10 +1,13 @@
-import React from 'react'
-import SideBar from './components/SideBar'
+import React from 'react';
+import SideBar from './components/SideBar';
+import Title from './components/Title';
+
 
 const App = () => {
   return (
-    <div>
+    <div className='app-container'>
       <SideBar />
+      <Title title='Featured Posts'/>
     </div>
   )
 }
