@@ -6,10 +6,8 @@ const Title = ({ title }) => {
     <div className="title-container">
       <h1>{title}</h1>
       <div className="search-container">
-        <input type="text"  placeholder="Search..." />
-      
-          <BiSearchAlt2  className="search-icon"/>
-    
+        <input type="text" placeholder="Search..." />
+        <BiSearchAlt2 className="search-icon" />
       </div>
     </div>
   );
