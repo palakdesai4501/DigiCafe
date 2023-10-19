@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { BiSearchAlt2 } from "react-icons/bi";
-
+import PostCard from "./PostCard";
 
 const Title = ({ title, onSearch }) => {
   const [searchText, setSearchText] = useState("");
@@ -22,6 +22,7 @@ const Title = ({ title, onSearch }) => {
         />
         <BiSearchAlt2 className="search-icon" onClick={handleSearch} />
       </div>
+      <PostCard />
     </div>
   );
 };
