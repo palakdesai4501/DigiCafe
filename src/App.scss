@@ -135,9 +135,14 @@ body {
   cursor: pointer;
 }
 
-.postcard-container{
+.postcard-container {
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 650px;
+    height: 500px;
+    width: 620px;
+    background-color: $dark_purple;
+    align-items: center;
+    border-radius: 25px;
 }
