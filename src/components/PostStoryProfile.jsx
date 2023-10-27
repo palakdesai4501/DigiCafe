@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const PostStoryProfile = ({name}) => {
+const PostStoryProfile = ({ name }) => {
   return (
-    <div>
-      
+    <div className="post-profile">
+      <div className="post-container"></div>
     </div>
-  )
-}
+  );
+};
 
-export default PostStoryProfile
+export default PostStoryProfile;

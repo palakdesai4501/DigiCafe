@@ -136,13 +136,31 @@ body {
 }
 
 .postcard-container {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-top: 650px;
-    height: 500px;
-    width: 620px;
-    background-color: $dark_purple;
-    align-items: center;
-    border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 650px;
+  height: 500px;
+  width: 620px;
+  background-color: $dark_purple;
+  border-radius: 25px;
+}
+
+.post-profile {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  height: 80px;
+  margin: {
+    top: 20px;
+    left: 20px;
+  }
+}
+
+.post-container {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: $light_purple;
+  justify-content: center;
 }
