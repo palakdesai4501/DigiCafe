@@ -50,7 +50,8 @@ body {
 
 .profile-name {
   font-size: 1.2rem;
-  margin: 0;
+  margin: 18px;
+  color: $light_purple;
 }
 
 .button-container {
@@ -158,6 +159,8 @@ body {
 }
 
 .post-container {
+    display: flex;
+    flex-direction: row;
   width: 55px;
   height: 55px;
   border-radius: 50%;
