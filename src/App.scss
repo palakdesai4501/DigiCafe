@@ -150,7 +150,7 @@ body {
 .post-profile {
   display: flex;
   flex-direction: row;
-  width: 280px;
+  width: inherit;
   height: 80px;
   margin: {
     top: 20px;
@@ -159,11 +159,22 @@ body {
 }
 
 .post-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
   width: 55px;
   height: 55px;
   border-radius: 50%;
   background-color: $light_purple;
   justify-content: center;
+}
+
+.dot-icon {
+  margin-left: 10px;
+  color: $light_purple;
+  font-size: 20px;
+  cursor: pointer;
+  margin: {
+    left: 325px;
+    top: 20px;
+  }
 }
