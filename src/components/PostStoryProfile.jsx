@@ -7,6 +7,9 @@ const PostStoryProfile = ({ name }) => {
       <div className="post-container"></div>
       <div className="profile-name">{name}</div>
       <BsThreeDots className='dot-icon'/>
+      <div className="post">
+        <img src="/src/assets/pizza.jpg" alt='post-img' className="post-img"/>
+      </div>
     </div>
   );
 };
